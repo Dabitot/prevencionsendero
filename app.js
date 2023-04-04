@@ -11,7 +11,7 @@ res.send('<h2>hola mundo</h2>')
 
 })
 
-const PORT = process.env.PORT  || 4000
+const PORT = process.env.PORT
 
 app.listen(4000, () =>{
 
