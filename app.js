@@ -6,7 +6,7 @@ app.get('/', (req,res) => {
 
 console.log ('petición recibida')
 
-res.send('<h2>hola mundo con Nodemon</h2>')
+res.send('<h2>hola mundo</h2>')
 
 })
 
