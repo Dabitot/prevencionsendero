@@ -7,7 +7,7 @@ app.get('/', (req,res) => {
 
 console.log ('petición recibida')
 
-res.send('<h2>hola mundo</h2>')
+res..status(200).send('<h2>hola mundo</h2>')
 
 })
 
